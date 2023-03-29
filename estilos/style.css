@@ -1,14 +1,72 @@
-.main-menu{
-    display: flex;
-    flex-direction: row;
-    background-color: #F9cc12;
-    padding-top: 10px;
-}
-.main-menu li{
-    list-style: none;;
+/*Barra de Navegación*/
+.navbar{
+  padding: 2rem;
+  background-color: #f5f6f7;
+  }
+
+  .navbar-collapse{
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /*Jumbotron*/
+  .jumbotron{
+    background-color: #f5f6f7;
+  }
+
+  .span-jumbotron{
+    color:red;
+    font-weight: bold;
+  }
+
+.imagen-computador-jumbotron{
+  border-radius: 20px;
+  padding-bottom: 50px;
 }
 
-#logotipo{
-    width: 80px;
-    height: 80px;
+/*Sección Tarjetas*/
+.textos{
+  display: column;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.algunos-servicios{
+  color: #0b5ed7;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*Call to action para contacto*/
+.row{
+  background-color: #f5f6f7;
+}
+
+/*Media Queries responsivos*/
+@media screen and (max-width: 767px){
+  .navbar-brand{
+    display: none;
+  }
+}
+.texto-contacto h2{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.parrafo-contacto{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.subtexto-contacto{
+  padding: 50px;
 }

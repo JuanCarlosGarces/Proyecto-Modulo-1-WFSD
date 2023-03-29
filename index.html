@@ -1,62 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Módulo 1 FSD</title>
-    <link rel="stylesheet" href="./estilos/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--Metadatos del Website-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Juan Carlos Gracés">
+  <meta name="description" content="Proyecto del Módulo 1">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Titulo del Website-->
+  <title>Desarrollo proyecto Módulo 1</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="/imagenes/Logotipo.png">
+  <!--Link de referencia Bootsrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!--Link de referencia CSS-->
+  <link rel="stylesheet" href="/estilos/style.css">
 </head>
-<body>
-    <header class="main-menu">
-        <div>
-            <img id="logotipo" src="./imagenes/Logotipo.png" alt="Logotipo">
+  <!--Barra de navegación-->
+  <main>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="/imagenes/Logotipo.png" style="width: 70px;" alt="Logotipo de Mariana Guadalupe">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    Home
-                </li>
-                <li>
-                    Productos
-                </li>
-                <li>
-                    Contáctanos
-                </li>
-                <li>
-
-                </li>
-            </ul>
-
-        </nav>
-    </header>
-    <!--Aquí va el Jumbotrón-->
-    <main>
-
-    </main>
-    <!--Aquí va la sección de tarjetas-->
-    <section>
-        <div class="cards">
-
+      </div>
+    </nav>
+  </main>
+  <!--Aquí va el Jumbotron-->
+  <section>
+    <div class="jumbotron">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="display-4">LLEVAMOS TU EMPRESA A OTRO NIVEL</h1>
+            <p class="lead">Desarrollamos el sitio web y las redes sociales para tu negocio o emprendimiento.</p>
+            <hr class="my-4">
+            <p>Eleva tus ventas con el poder de la <span class="span-jumbotron">ESTRATEGIA DIGITAL.</span> Contáctanos ahora para una asesoría personalizada.</p>
+            <p></p>
+            <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="imagen-computador-jumbotron" src="/imagenes/pagina web.jpg" alt="Página Web" width="700px">
+          </div>
         </div>
-        <div class="cards">
-
+      </div>
+    </div>
+  </section>
+  <!--Sección para las tarjetas-->
+    <div class="textos">
+      <h4>Algunos de nuestros servicios</h4>
+      <h3><span class="algunos-servicios"><bold>¿Listo para el cambio?</bold></span></h3>
+      <p>Aquí encontrarás la entrada al mundo digital de tu negocio, tu empresa o emprendimiento</p>
+    </div>
+  <section class="tarjetas">
+      <div class="card" style="width: 18rem;">
+        <img src="/imagenes/sitio-web-optimizado.jpg" class="card-img-top" alt="Sitios Web Optimizados">
+        <div class="card-body">
+          <p>Web</p>
+          <h5 class="card-title">Sitios web Optimizados</h5>
+          <p class="card-text">El centro de la estrategia es un buen sitio web, responsivo y dinámico</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
         </div>
-        <div class="cards">
-
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/imagenes/redes-sociales.jpg" class="card-img-top" alt="Redes Sociales">
+        <div class="card-body">
+          <p>Social</p>
+          <h5 class="card-title">Redes Sociales</h5>
+          <p class="card-text">Redes sociales de tu empresa que realmente venden y elevan tu marca</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
         </div>
-    </section>
-    <!--Aquí va la info adicional-->
-    <section>
-        <div class="id">
-
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/imagenes/analitica.jpg" class="card-img-top" alt="Analítica">
+        <div class="card-body">
+          <p>Análisis</p>
+          <h5 class="card-title">Analítica</h5>
+          <p class="card-text">Lo difícil no es pautar, sino medir los efectos reales de esa pauta en nuestra empresa</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
         </div>
-    </section>
-    <footer>
+      </div>
+  </section>
+  <hr>
+  <!--Aquí está el Call To Action para contacto-->
+  <div class="row">
+    <div style="width:100%;">
+      <div style="float:left; width:50%;">
+        <img src="./imagenes/imagen amarilla sombrilla.jpg" style="width:100%;" />
+      </div>
+    <div class="texto-contacto" style="float:right; width:50%;">
+      <p class="parrafo-contacto">Tu marca es el activo más importante</p>
+      <h2>¡No dejes tus activos digitales a la intemperie!</h2>
+      <p class="subtexto-contacto"> Nosotro nos encargamos de crear, optimizar y mantener tu sitio web y tus redes sociales al día</p>
+      
+    </div>
+  </div>  
+  <!--Aquí va el footer-->
+  <footer class="d-flex flex-column align-items-center">
+    <p class="texto-footer text-center">Contacto directo</p>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </footer>
+  <!--Link de referencia JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>  
+  <script src="/main.js"></script>
 </body>
 </html>
