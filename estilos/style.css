@@ -3,7 +3,6 @@
   padding: 10px 10px;
   background-color: #f5f6f7;
   }
-
   .navbar-collapse{
     justify-content: space-between;
     align-items: center;
@@ -14,12 +13,10 @@
     padding: 10px 0px 0px 30px;
     background-color: #f5f6f7;
   }
-
   .span-jumbotron{
     color:red;
     font-weight: bold;
   }
-
 .imagen-computador-jumbotron{
   border-radius: 30px 0px 0px 0px;
 }
@@ -32,11 +29,9 @@
   text-align: center;
   padding: 50px 30px;
 }
-
 .algunos-servicios{
   color: #ff0000;
 }
-
 .tarjetas{
   display: flex;
   flex-direction: row;
@@ -49,15 +44,14 @@
 .texto-cta{
   padding:30px 20px;
 }
-
 .row-contacto{
   background-color: #f5f6f7;
   margin-top: 50px;
 }
-
 .col-md-6{
   padding-left: 0px;
 }
+
 /*Sección Footer*/
 .row-footer{
   display: row;
@@ -65,7 +59,6 @@
   justify-content:space-around;
   padding-top: 30px;
 }
-
 .logo-footer{
   display: flex;
   flex-direction: row;
@@ -73,11 +66,9 @@
   align-items: center;
   padding-top: 30px;
 }
-
 #logo-pequeño-footer{
   width: 90px;
 }
-
 .columna{
   display: flex;
   flex-direction: row;
