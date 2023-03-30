@@ -51,6 +51,9 @@
 .col-md-6{
   padding-left: 0px;
 }
+#btn-whatsapp{
+  padding: 20px;
+}
 
 /*Sección Footer*/
 .row-footer{
@@ -80,6 +83,11 @@
 /*Media Queries responsivos*/
 @media screen and (max-width: 767px){
   .navbar-brand{
+    display: none;
+  }
+}
+@media screen and (max-width: 424px){
+  .imagen-computador-jumbotron{
     display: none;
   }
 }
