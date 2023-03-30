@@ -79,6 +79,15 @@
   align-items: center;
   margin-bottom: 30px;
 }
+.derechos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #bb2d3b;
+  color: white;
+  padding: 10px;
+}
 
 /*Media Queries responsivos*/
 @media screen and (max-width: 767px){
