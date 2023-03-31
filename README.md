@@ -9,3 +9,6 @@ Se realizó la creación de este sitio web desde cero, utilizado HTML5, CSS3 y B
 2.Git
 3.Github
 4.Chat GPT
+
+##URL del deploy
+https://juancarlosgarces.github.io/Proyecto-Modulo-1-WFSD/
