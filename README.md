@@ -1,5 +1,5 @@
 # Proyecto-Modulo-1-WFSD
-En este repositorio se encuentra el proyecto del módulo 1 de Web Full Stack Developer
+En este repositorio se encuentra el proyecto del módulo 1 de Web Full Stack Developer de UCamp.
 
 ## Creación del sitio web
 Se realizó la creación de este sitio web desde cero, utilizado HTML5, CSS3 y Bootstrap como framework.
